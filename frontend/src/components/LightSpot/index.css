@@ -1,0 +1,6 @@
+.training {
+    border: yellow solid 2px;
+}
+.ant-menu-item > a:hover {
+    color: green;
+}
