@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Form, Input, Button } from 'antd';
 import  displayError  from '../../lib/validation';
 import userAPI from '../../services/userAPI';
+import hand from '../../pictures/hand.jpg';
 
 import './index.css';
 
@@ -43,8 +44,10 @@ userAPI.contact();
     return (
 
  
-        <div className="contact" > 
-            Contact
+        <div className="contact" >
+         <div className="separator"></div>
+         <img src={hand} width="1225" height="1000"/> 
+           <h1> Contact </h1>
              <Form {...layout} name="nest-messages"  onSubmit={handleSubmit} method="post" action="mailto:melinda93@hotmail.fr" >
                  <Form.Item label="Nom" >
                    <Input name="name" onChange={handleChange}/>

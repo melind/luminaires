@@ -39,6 +39,10 @@ const Nav = () => {
                         >  
                         </SubMenu>
 
+                      <Menu.Item key="home">
+                          <Link to="/"> Accueil </Link>
+                        </Menu.Item>
+
                         <SubMenu
                           title={
                             <span className="submenu-title-wrapper">

@@ -1,6 +1,8 @@
 import React from 'react';
 import { Route, Switch, Redirect} from 'react-router-dom';
-import domelec from '../../domelec+.jpg';
+import luminaris from '../../pictures/luminaris.png';
+
+import bulb from '../../pictures/bulb.png';
 import './index.css';
 
 import Home from '../Home';
@@ -23,8 +25,9 @@ const App = () => {
   return (
     <div className="App">
       <header className="App-header">
-        LUMINARIS
-         <Nav />
+        <img src={luminaris} width="50"/>LUMINARIS
+        
+          <Nav />
       </header>
       <Switch>
         <Route path="/" exact component={Home}/>

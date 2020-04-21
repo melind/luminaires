@@ -14,3 +14,9 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.separator {
+   /* border: violet solid 2px;*/
+    height: 100px;
+   /* height: 150px;*/
+}
